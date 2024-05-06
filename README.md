@@ -33,13 +33,15 @@ Here are the technologies used in this project.
 
 ## Getting started and How to use:
 
-	You need to clone this repository:
+You need to clone this repository:
 
 1 - Create an API key on the website https://newsapi.org/docs/get-started 
+
 2 - Add this created key to the script.js file on line 10 
+
 3 - After these changes, you can run the program in an IDE, I used VSCode and run the program. 
 
-	So you can access the news according to what you want to research.
+So you can access the news according to what you want to research.
 
 ## Features
   - Check the news
