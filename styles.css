@@ -1,0 +1,98 @@
+/* Cores */
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    color: #080;
+}
+
+/* Layout */
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #d1d1d1;
+    border-radius: 0.25rem;
+}
+
+header p{
+    color: #080;
+}
+.search-bar {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#news-container {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #d1d1d1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+}
+
+.news-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.news-item h3 {
+    margin-top: 10px;
+}
+
+.news-item p {
+    margin-bottom: 10px;
+}
+
+.news-item a {
+    color: #080;
+    &:hover{
+        color: #002b71;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
