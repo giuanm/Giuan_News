@@ -7,7 +7,7 @@ searchForm.addEventListener('submit', (event) => {
   const keyword = document.getElementById('keyword').value;
   const date = document.getElementById('date').value || ''; // Se a data for vazia, use uma string vazia
 
-  const apiKey = '2902b45d1a444dedb0c2ac3485b41711'; // Insira sua chave API da News API
+  const apiKey = 'API_KEY'; // Insira sua chave API da News API
   const url = `https://newsapi.org/v2/everything?q=${keyword}&from=${date}&sortBy=popularity&apiKey=${apiKey}`;
 
   fetch(url)
